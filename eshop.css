@@ -1,0 +1,35 @@
+/*N A V B A R  S E C T I O N*/
+.navbar-brand{
+	font-family: 'Young Serif', serif;
+}
+
+.navbar-collapse{
+	font-family: 'Roboto Serif', serif;
+	text-align: center;
+}
+
+.navbar-collapse a:hover{
+	background-color: #ddd;
+	border-radius: 10px;
+}
+
+/*C A R O U S E L  S L I D E S*/
+
+.carousel-caption {
+    color: #fff;
+    text-align: center;
+	font-size: small;
+	font-family: 'Roboto Serif', serif;
+	background-color: darkolivegreen;
+	opacity: 80%;
+}
+
+/*F O O T E R*/
+.footer{
+	height: 25px;
+}
+
+.foooter{
+	margin-top: 35px;
+}
+

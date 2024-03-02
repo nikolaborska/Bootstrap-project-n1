@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us</title>
+	<!--LINK CSS-->
+	<link rel="stylesheet" href="about.css">
+	<!--LINK BOOTSTRAP-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<!--BOOTSTRAP ICONS-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<!--FONT LOGO-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+	<!--FONT TEXT-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,200;8..144,400&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!--NAVIGAION-->
+	<div class="nav-menu">
+		<nav class="navbar navbar-expand-sm bg-body-tertiary">
+
+			<div class="container-fluid">
+			  <!--LOGO-->
+			  <a class="navbar-brand" href="#"><i class="bi bi-flower3"></i>Greenhouse</a>
+			  <!--MENU BUTTON-->
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  
+			  	<!--ITEMS OF MENU-->
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link " aria-current="page" href="index.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link active" href="about.html" style="background-color: darkolivegreen; border-radius: 15px;">About</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="eshop.html">E-shop</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<i class="bi bi-globe-americas"></i>
+					</a>
+					<ul class="dropdown-menu">
+					  <li><a class="dropdown-item" href="#">CZ</a></li>
+					  <li><a class="dropdown-item" href="#">EN</a></li>
+					</ul>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+	</div>
+
+	<!--CAROUSEL-->
+	<div class="carousel-slides">
+		<div id="carouselExampleCaptions" class="carousel slide">
+			<!--ARROWS-->
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<!--IMAGES, SLIDES-->
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="./img/08.jpg" class="d-block w-100" alt="#">
+				<div class="carousel-caption d-sm-block d-md-block">
+				  <h5>Neighbours</h5>
+				  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="./img/09.jpg" class="d-block w-100" alt="#">
+				<div class="carousel-caption d-sm-block d-md-block">
+				  <h5>Friends</h5>
+				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				  </p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="./img/10.jpg" class="d-block w-100" alt="#">
+				<div class="carousel-caption d-sm-block d-md-block">
+				  <h5>Family</h5>
+				  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+	</div>
+
+	<!--INTRODUCTION-->
+	<div class="introduction container-fluid justify-content-center">
+		<h3>Our motto</h3>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla magni voluptates sit assumenda veniam ad exercitationem totam autem dolore eveniet?</p>
+	</div>
+
+	<!--ALERT-->
+	<div class="alert alert-success" role="alert">
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, impedit!</p>
+	</div>
+
+	<!--CAROUSEL 2-->
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+		  <div class="carousel-item carousel2 active">
+			<img src="./img/11.jpg" class="d-block w-100" alt="...">
+		  </div>
+		</div>
+	</div>
+
+	<!--TEXT-->
+	<div class="mission introduction container-fluid justify-content-center">
+		<h3>Our mission</h3>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt omnis consequatur nihil nobis saepe quasi animi eum repellendus necessitatibus veritatis quas, autem doloribus accusamus.</p>
+	</div>
+
+	<!--TEAM PHOTO-->
+	<div class=" teamText introduction container-fluid justify-content-center">
+		<h3>Our team</h3>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, recusandae error. Doloribus odio perferendis distinctio!</p>
+	</div>
+
+	<section class="py-3 py-md-5 py-xl-8 ">
+
+  
+		<div class=" container overflow-hidden">
+		<div class="photoList row gy-4 gy-lg-0 gx-xxl-5">
+			<div class="col-12 col-md-6 col-lg-3">
+			<div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+				<div class="card-body p-0">
+				<figure class="m-0 p-0">
+					<img class="img-fluid" loading="lazy" src="./img/TEAM/001.png" alt="Rachel McGreen">
+					<figcaption class="m-0 p-4">
+					<h4 class="mb-1">Rachel</h4>
+					</figcaption>
+				</figure>
+				</div>
+			</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-3">
+			<div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+				<div class="card-body p-0">
+				<figure class="m-0 p-0">
+					<img class="img-fluid" loading="lazy" src="./img/TEAM/002.png" alt="Olive Mac">
+					<figcaption class="m-0 p-4">
+					<h4 class="mb-1">Olive</h4>
+					</figcaption>
+				</figure>
+				</div>
+			</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-3">
+			<div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+				<div class="card-body p-0">
+				<figure class="m-0 p-0">
+					<img class="img-fluid" loading="lazy" src="./img/TEAM/003.png" alt="Rodriguez Elia">
+					<figcaption class="m-0 p-4">
+					<h4 class="mb-1">Rodriguez</h4>
+					</figcaption>
+				</figure>
+				</div>
+			</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-3">
+			<div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+				<div class="card-body p-0">
+				<figure class="m-0 p-0">
+					<img class="img-fluid" loading="lazy" src="./img/TEAM/004.png" alt="Enzo Lucas">
+					<figcaption class="m-0 p-4">
+					<h4 class="mb-1">Ben</h4>
+					</figcaption>
+				</figure>
+				</div>
+			</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-3">
+				<div class="Enzo card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+				<div class=" card-body p-0">
+					<figure class="m-0 p-0">
+					<img class="img-fluid" loading="lazy" src="./img/TEAM/005.png" alt="Enzo Lucas">
+					<figcaption class="m-0 p-4">
+						<h4 class="mb-1">Enzo</h4>
+					</figcaption>
+					</figure>
+				</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-3">
+				<div class="Julia card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+				<div class="card-body p-0">
+					<figure class="m-0 p-0">
+					<img class="img-fluid" loading="lazy" src="./img/TEAM/006.png" alt="Enzo Lucas">
+					<figcaption class="m-0 p-4">
+						<h4 class="mb-1">Julia</h4>
+					</figcaption>
+					</figure>
+				</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-3">
+				<div class="Otto card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+				<div class="card-body p-0">
+					<figure class="m-0 p-0">
+					<img class="img-fluid" loading="lazy" src="./img/TEAM/007.png" alt="Enzo Lucas">
+					<figcaption class="m-0 p-4">
+						<h4 class="mb-1">Otto</h4>
+					</figcaption>
+					</figure>
+				</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-3">
+				<div class="Elissa card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+				<div class="card-body p-0">
+					<figure class="m-0 p-0">
+					<img class="img-fluid" loading="lazy" src="./img/TEAM/008.png" alt="Enzo Lucas">
+					<figcaption class="m-0 p-4">
+						<h4 class="mb-1">Elissa</h4>
+					</figcaption>
+					</figure>
+				</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-3">
+				<div class=" Kate card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+				<div class="card-body p-0">
+					<figure class="m-0 p-0">
+					<img class="img-fluid" loading="lazy" src="./img/TEAM/009.png" alt="Enzo Lucas">
+					<figcaption class="m-0 p-4">
+						<h4 class="mb-1">Kate</h4>
+					</figcaption>
+					</figure>
+				</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-3">
+				<div class="Jordan card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+				<div class="card-body p-0">
+					<figure class="m-0 p-0">
+					<img class="img-fluid" loading="lazy" src="./img/TEAM/010.png" alt="Enzo Lucas">
+					<figcaption class="m-0 p-4">
+						<h4 class="mb-1">Jordan</h4>
+					</figcaption>
+					</figure>
+				</div>
+				</div>
+			</div>
+
+		</div>
+		</div>
+  </section>
+
+  <!--FOOTER-->
+  <nav class="navbar bottom bg-body-tertiary foooter">
+		
+	<div class="container-fluid justify-content-center footer">
+	  <p>&copy;Borská Nikola, 2023</p>
+	</div>
+  </nav>
+
+
+
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

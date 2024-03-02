@@ -1,0 +1,201 @@
+/*N A V B A R  S E C T I O N*/
+.navbar-brand{
+	font-family: 'Young Serif', serif;
+}
+
+.navbar-collapse{
+	font-family: 'Roboto Serif', serif;
+	text-align: center;
+}
+
+.navbar-collapse a:hover{
+	background-color: #ddd;
+	border-radius: 10px;
+}
+
+@media only screen and (min-width: 1440px)  {
+	.nav-menu{
+		height: 70px;
+	}
+
+	.navbar{
+		height: 70px;
+	}
+
+	.navbar-brand{
+		--bs-navbar-brand-font-size: 30px;
+	}
+
+	.navbar-nav{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.nav-menu{
+		height: 160px;
+	}
+
+	.navbar{
+		height: 160px;
+		
+	}
+
+	.navbar-brand{
+		--bs-navbar-brand-font-size: 60px;
+	}
+
+	.navbar-nav{
+		font-size: 40px;
+	}
+}
+
+/*C O N T A C T  F O R M*/
+h2{
+	font-family: 'Young Serif', serif;
+	text-align: center;
+}
+
+p{
+	font-family: 'Roboto Serif', serif;
+	text-align: center;
+}
+
+.heading-form{
+	margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.contact-form{
+	font-family: 'Roboto Serif', serif;
+	padding: 0px 30px;
+}
+
+.name{
+	padding: 0 0 15px 0;
+}
+
+.email{
+	padding: 0 0 15px 0;
+}
+
+.topic{
+	padding: 0 0 15px 0;
+}
+
+.message{
+	padding: 0 0 15px 0;
+}
+
+
+@media only screen and (min-width: 1024px){
+	.contact-form{
+		padding: 30px 180px;
+	}
+
+	.btn{
+		width: 100px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.contact-form{
+		padding: 30px 330px;
+	}
+
+	.btn{
+		width: 150px;
+	}
+
+	.heading-form{
+		margin-top: 80px;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.contact-form{
+		padding: 80px 660px;
+	}
+
+	.form-group{
+		height: 195px;
+	}
+
+	.yourName, .yourEmail, .topic, .yourMessage{
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+
+	.form-control{
+		height: 90px;
+	}
+
+	.form-control:placeholder-shown{
+		font-size: 30px;
+	}
+
+	.btn{
+		width: 100px;
+	}
+
+	.heading-form h2{
+		font-size: 80px;
+		margin-top: 30px;
+	}
+
+	.heading-form p{
+		font-size: 40px;
+		margin-top: 30px;
+	}
+}
+
+
+/*L I S T  G R O U P*/
+.icons{
+	padding: 40px 15px;
+}
+
+@media only screen and (min-width: 1024px){
+	.icons{
+		padding: 30px 170px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.icons{
+		padding: 30px 330px;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.icons{
+		padding: 30px 170px;
+	}
+}
+
+/* M A P */
+
+/*F O O T E R*/
+.footer{
+	height: 25px;
+}
+
+.foooter{
+	margin-top: 35px;
+}
+
+@media only screen and (min-width: 1440px){
+	.footer{
+		height: 40px;
+	}
+
+	.footer p{
+		margin-top: 7px;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.footer{
+		height: 30px;
+	}
+}

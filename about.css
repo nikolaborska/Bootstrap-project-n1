@@ -1,0 +1,287 @@
+/*N A V B A R  S E C T I O N*/
+.navbar-brand{
+	font-family: 'Young Serif', serif;
+}
+
+.navbar-collapse{
+	font-family: 'Roboto Serif', serif;
+	text-align: center;
+}
+
+.navbar-collapse a:hover{
+	background-color: #ddd;
+	border-radius: 10px;
+}
+
+@media only screen and (min-width: 1440px)  {
+	.nav-menu{
+		height: 70px;
+	}
+
+	.navbar{
+		height: 70px;
+	}
+
+	.navbar-brand{
+		--bs-navbar-brand-font-size: 30px;
+	}
+
+	.navbar-nav{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.nav-menu{
+		height: 160px;
+	}
+
+	.navbar{
+		height: 160px;
+		
+	}
+
+	.navbar-brand{
+		--bs-navbar-brand-font-size: 60px;
+	}
+
+	.navbar-nav{
+		font-size: 40px;
+	}
+}
+
+/*C A R O U S E L  S L I D E S*/
+.carousel-caption{
+	font-size: small;
+	font-family: 'Roboto Serif', serif;
+	background-color: darkolivegreen;
+	opacity: 80%;
+}
+
+@media only screen and (min-width: 2560px){
+	.carousel-caption{
+		height: 500px;
+		font-size: 50px;
+	}
+
+	.carousel-caption h5{
+		font-size: 70px;
+		margin-top: 90px;
+	}
+
+	.carousel-caption p{
+		margin-left: 55px;
+	}
+
+	.carousel-indicators{
+		height: 60px;
+	}
+}
+
+/*I N T R O D U C T I O N*/
+.introduction{
+	text-align: justify;
+    padding: 30px 15px 15px 15px;
+}
+
+.introduction h3{
+	font-family: 'Young Serif', serif;
+}
+
+.introduction p{
+	font-family: 'Roboto Serif', serif;
+}
+
+@media only screen and (min-width: 1024px){
+	.introduction{
+		padding: 30px 50px 30px 50px;
+	}
+
+	.introduction h3{
+		padding-left: 50px;
+	}
+
+	.introduction p{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.introduction{
+		padding: 80px 80px 50px 80px;
+	}
+
+	.introduction h3{
+		padding-left: 80px;
+	}
+
+	.introduction p{
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.introduction{
+		padding: 160px 170px 160px 170px;
+	}
+
+	.introduction h3{
+		padding-left: 170px;
+	}
+
+	.introduction p{
+		padding-left: 170px;
+		padding-right: 170px;
+	}
+}
+
+/*A L E R T*/
+.alert{
+	text-align: center;
+	margin: 15px;
+}
+
+@media only screen and (min-width: 1024px){
+	.alert{
+		margin: 0px 50px 30px 50px;
+		height: 80px;
+	}
+
+	.alert p{
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.alert{
+		margin: 0px 80px 50px 80px;
+		height: 120px;
+	}
+
+	.alert p{
+		margin-top: 30px;
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.alert{
+		margin: 160px 170px 160px 170px;
+		height: 160px;
+	}
+
+	.alert p{
+		margin-top: 30px;
+		font-size: 18px;
+	}
+}
+
+/*C A R O U S E L  2*/
+.carousel2{
+	padding: 30px 15px 15px 15px;
+}
+
+.carousel2 img{
+	border-radius: 3%;
+}
+
+@media only screen and (min-width: 1024px){
+	.carousel2{
+		padding: 30px 50px 30px 50px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.carousel2{
+		padding: 50px 80px 50px 80px;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.carousel2{
+		padding: 160px 170px 160px 170px;
+	}
+}
+
+/*T E A M  P H O T O*/
+.mb-1{
+	font-family: 'Roboto Serif', serif;
+	text-align: center;
+}
+
+.img-fluid{
+	padding: 0 15px;
+}
+
+.card{
+	--bs-primary-rgb: 0;
+	--bs-border-color: darkolivegreen;
+	--bs-border-width: 4px;
+}
+
+@media only screen and (min-width: 1024px){
+	.photoList{
+		padding: 30px 50px 30px 50px;
+	}
+
+	.Enzo, .Julia, .Otto, .Elissa, .Kate, .Jordan{
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.photoList{
+		padding: 0px 80px 50px 80px;
+	}
+
+	.Enzo, .Julia, .Otto, .Elissa, .Kate, .Jordan{
+		margin-top: 40px;
+	}
+
+	.mission{
+		margin-top: -50px;
+	}
+
+	.teamText{
+		margin-top: -80px;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.photoList{
+		padding: 160px 170px 160px 170px;
+	}
+
+	.Enzo, .Julia, .Otto, .Elissa, .Kate, .Jordan{
+		margin-top: 60px;
+	}
+}
+
+
+/*F O O T E R*/
+.footer{
+	height: 25px;
+}
+
+.foooter{
+	margin-top: 35px;
+}
+
+
+@media only screen and (min-width: 1440px){
+	.footer{
+		height: 40px;
+	}
+
+	.footer p{
+		margin-top: 7px;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+	.footer{
+		height: 30px;
+	}
+}
